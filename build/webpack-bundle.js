@@ -48,7 +48,13 @@
 
 	var _util = __webpack_require__(1);
 
+	//import {extend} from 'lodash';
+
 	(0, _util.m)();
+
+	//console.log(extend({},{
+	//    key:"value"
+	//}))
 
 /***/ },
 /* 1 */

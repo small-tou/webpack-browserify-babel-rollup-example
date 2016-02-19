@@ -3,7 +3,13 @@
 
 var _util = require('./util.js');
 
+//import {extend} from 'lodash';
+
 (0, _util.m)();
+
+//console.log(extend({},{
+//    key:"value"
+//}))
 
 },{"./util.js":2}],2:[function(require,module,exports){
 'use strict';
