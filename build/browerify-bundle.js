@@ -3,15 +3,34 @@
 
 var _util = require('./util.js');
 
+var _util2 = require('./util2.js');
+
 //import {extend} from 'lodash';
 
 (0, _util.m)();
+(0, _util2.n)();
 
 //console.log(extend({},{
 //    key:"value"
 //}))
 
-},{"./util.js":2}],2:[function(require,module,exports){
+},{"./util.js":2,"./util2.js":3}],2:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.m = m;
+exports.n = n;
+function m() {
+    console.log('i am m');
+};
+
+function n() {
+    console.log('i am n');
+}
+
+},{}],3:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {

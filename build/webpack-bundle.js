@@ -48,9 +48,12 @@
 
 	var _util = __webpack_require__(1);
 
+	var _util2 = __webpack_require__(2);
+
 	//import {extend} from 'lodash';
 
 	(0, _util.m)();
+	(0, _util2.n)();
 
 	//console.log(extend({},{
 	//    key:"value"
@@ -58,6 +61,25 @@
 
 /***/ },
 /* 1 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.m = m;
+	exports.n = n;
+	function m() {
+	    console.log('i am m');
+	};
+
+	function n() {
+	    console.log('i am n');
+	}
+
+/***/ },
+/* 2 */
 /***/ function(module, exports) {
 
 	'use strict';
